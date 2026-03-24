@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPSStamp Camera+ | Precision Location Tagging</title>
+    <!-- Modern Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Abstract Background Grid -->
+    <div class="bg-mesh">
+      <div class="gradient-ball ball-1"></div>
+      <div class="gradient-ball ball-2"></div>
+      <div class="gradient-ball ball-3"></div>
+      <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container navbar-content">
+        <a href="#" class="logo">
+          <span class="logo-accent">GPS</span>Stamp Camera+
+        </a>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="https://apps.apple.com/us/app/gpsstamp-camera/id6759523806" class="btn btn-primary" target="_blank">Download</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="badge animate-up">Redefining Geotagging</div>
+        <h1 class="hero-title animate-up delay-1">
+          Make Every Coordinate<br>
+          <span class="text-accent glow-text">Unforgettable.</span>
+        </h1>
+        <p class="hero-subtitle animate-up delay-2">
+          GPSStamp Camera+ transforms standard photos into stunning, data-rich memories with fully customizable location overlays. Experience the future of precision tracking.
+        </p>
+        <div class="hero-cta animate-up delay-3">
+          <a href="https://apps.apple.com/us/app/gpsstamp-camera/id6759523806" class="btn btn-large btn-primary" target="_blank">
+            <span class="btn-text">Get the App</span>
+            <span class="btn-icon">→</span>
+          </a>
+          <a href="#features" class="btn btn-large btn-outline">Explore Capabilities</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Innovative Features Section (Mega Bento Box) -->
+    <section id="features" class="features bento-section">
+      <div class="container">
+        
+        <div class="bento-grid">
+          
+          <!-- 1. Coordinate Accuracy (Span 2x2) -->
+          <div class="bento-card span-2 row-span-2 group">
+            <div class="card-bg-effect bg-gold"></div>
+            <div class="card-content">
+              <div class="bento-header">
+                <span class="bento-icon">📍</span>
+                <span class="badge ghost">Precision Core</span>
+              </div>
+              <h2 class="bento-title giant-title">Pinpoint Accuracy</h2>
+              <p class="bento-desc">Harness advanced GPS technology to capture exact coordinates, altitude, and heading instantly. Your memories, locked to the grid with absolute certainty.</p>
+              
+              <div class="abstract-data-vis">
+                <div class="data-row"><span>LAT</span> <span class="mono accent">40.7128° N</span></div>
+                <div class="data-row"><span>LNG</span> <span class="mono accent">74.0060° W</span></div>
+                <div class="data-row"><span>ALT</span> <span class="mono">10m</span></div>
+                <div class="data-row"><span>HDG</span> <span class="mono">180° S</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Environmental Data (Span 1x2) -->
+          <div class="bento-card span-1 row-span-2 group">
+            <div class="card-bg-effect bg-blue"></div>
+            <div class="card-content">
+              <div class="bento-header">
+                <span class="bento-icon">🌦️</span>
+              </div>
+              <h3 class="bento-title">Live Environmental Context</h3>
+              <p class="bento-desc">Automatically pull real-time Air Quality (AQI), weather conditions, and dust metrics into your overlays.</p>
+              
+              <div class="env-widgets">
+                <div class="aqi-ring">
+                  <div class="ring-status good"></div>
+                  <span class="aqi-val mono">42<br><small>AQI</small></span>
+                </div>
+                <div class="env-bars">
+                  <div class="bar-row"><span>Temp</span><div class="bar"><div class="fill w-70"></div></div></div>
+                  <div class="bar-row"><span>Dust</span><div class="bar"><div class="fill w-30"></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Time Tracking (Span 1x1) -->
+          <div class="bento-card span-1 group">
+             <div class="card-content">
+              <div class="bento-header"><span class="bento-icon">⏱️</span></div>
+              <h3 class="bento-title small-title">Temporal Precision</h3>
+              <p class="bento-desc subtle">Dual time tracking guarantees historical context regardless of where you travel.</p>
+              <div class="time-compare">
+                <div class="time-box"><span>LOCAL</span><span class="mono">14:30</span></div>
+                <div class="time-box dark"><span>GMT</span><span class="mono accent">19:30</span></div>
+              </div>
+             </div>
+          </div>
+
+          <!-- 4. Dynamic Maps (Span 1x1) -->
+          <div class="bento-card span-1 group">
+            <div class="card-bg-effect bg-purple"></div>
+            <div class="card-content">
+              <div class="bento-header"><span class="bento-icon">🗺️</span></div>
+              <h3 class="bento-title small-title">Dynamic Map Modes</h3>
+              <div class="map-modes">
+                <span class="active">Standard</span> • <span>Satellite</span> • <span>Hybrid</span>
+              </div>
+              <div class="map-abstract">
+                <div class="map-grid-lines"></div>
+                <div class="map-pin-pulse"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Overlay Templates (Span 4x1) -->
+          <div class="bento-card span-4 group template-marquee-card">
+            <div class="card-bg-effect bg-gradient"></div>
+            <div class="card-content">
+              <div class="bento-header">
+                <span class="bento-icon">🎨</span>
+                <span class="badge ghost">15+ Premium Overlays</span>
+              </div>
+              <h2 class="bento-title">A Template for Every Aesthetic</h2>
+              <p class="bento-desc">From minimalist data strips to full cinematic HUDs, our massive library of custom templates ensures your photos always look professional.</p>
+              
+              <div class="marquee-container">
+                <div class="marquee-content">
+                  <span class="template-pill glow">Passport Stamp</span>
+                  <span class="template-pill">HUD Display</span>
+                  <span class="template-pill highlight">Gradient Wave</span>
+                  <span class="template-pill">Classic</span>
+                  <span class="template-pill">Boarding Pass</span>
+                  <span class="template-pill text-glow">Polaroid</span>
+                  <span class="template-pill">Dual Column</span>
+                  <span class="template-pill">Dark Frost</span>
+                  <span class="template-pill">Film Strip</span>
+                  <span class="template-pill">Grid Tiles</span>
+                  <span class="template-pill glow">Split Card</span>
+                  <!-- Duplicates for seamless looping -->
+                  <span class="template-pill glow">Passport Stamp</span>
+                  <span class="template-pill">HUD Display</span>
+                  <span class="template-pill highlight">Gradient Wave</span>
+                  <span class="template-pill">Classic</span>
+                  <span class="template-pill">Boarding Pass</span>
+                  <span class="template-pill text-glow">Polaroid</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Camera Controls (Span 2x1) -->
+          <div class="bento-card span-2 group">
+            <div class="card-content horizontal-content">
+              <div class="text-side">
+                <div class="bento-header"><span class="bento-icon">📸</span></div>
+                <h3 class="bento-title">Pro Camera Control</h3>
+                <p class="bento-desc">Compose the perfect shot with built-in rule of thirds grid overlays and front-camera mirroring support.</p>
+              </div>
+              <div class="visual-side camera-grid-vis">
+                <div class="cam-line v-1"></div><div class="cam-line v-2"></div>
+                <div class="cam-line h-1"></div><div class="cam-line h-2"></div>
+                <div class="focus-square"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Localization (Span 2x1) -->
+          <div class="bento-card span-2 group">
+            <div class="card-bg-effect bg-blue"></div>
+            <div class="card-content">
+              <div class="bento-header"><span class="bento-icon">🌍</span></div>
+              <h3 class="bento-title">Global Accessibility</h3>
+              <p class="bento-desc">Fully localized for international explorers, natively supporting 10 languages across the entire app interface.</p>
+              <div class="lang-pills">
+                 <span class="lang-pill">English</span>
+                 <span class="lang-pill">Español</span>
+                 <span class="lang-pill">Français</span>
+                 <span class="lang-pill">Deutsch</span>
+                 <span class="lang-pill">日本語</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Infinite Style / Colors (Span 2x1) -->
+          <div class="bento-card span-2 group">
+            <div class="card-content horizontal-content">
+              <div class="text-side">
+                <div class="bento-header"><span class="bento-icon">🎨</span></div>
+                <h3 class="bento-title">Infinite Style</h3>
+                <p class="bento-desc">Match branding instantly with fully customizable colors for overlay backgrounds and typography.</p>
+              </div>
+              <div class="visual-side">
+                <div class="color-palette-demo multi">
+                  <div class="color-swatch" style="background: var(--accent-color);"></div>
+                  <div class="color-swatch" style="background: #1E90FF;"></div>
+                  <div class="color-swatch" style="background: #FF6B6B;"></div>
+                  <div class="color-swatch" style="background: #2ECC71;"></div>
+                  <div class="color-swatch" style="background: #FFFFFF;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Branding / Logo (Span 2x1) -->
+          <div class="bento-card span-2 group">
+            <div class="card-content horizontal-content">
+              <div class="text-side">
+                <div class="bento-header"><span class="bento-icon">✨</span></div>
+                <h3 class="bento-title">Your Brand.</h3>
+                <p class="bento-desc">Align app logos effortlessly or hide them entirely to keep focus strictly on your captures.</p>
+              </div>
+              <div class="visual-side">
+                <div class="alignment-vis">
+                  <span class="align-dot left"></span>
+                  <span class="align-dot center active"></span>
+                  <span class="align-dot right"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End grid -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container about-content">
+        <div class="about-text-content">
+          <h2 class="about-title giant-title">Built for the <br><span class="text-accent glow-text">Modern Explorer.</span></h2>
+          <p class="about-desc">
+            GPSStamp Camera+ was born out of a need for precision. Whether you are a professional documenting construction sites, an explorer charting new trails, or a traveler wanting to lock in the exact coordinates of a perfect memory, we built this tool for you.
+          </p>
+          <p class="about-desc">
+            We believe in a <strong>privacy-first approach</strong>. GPSStamp Camera+ requires zero sign-ups, creates no user accounts, and processes your location data natively on your device. Your data belongs to you.
+          </p>
+        </div>
+        <div class="about-stats-grid">
+          <div class="stat-box">
+            <span class="stat-number text-accent">100%</span>
+            <span class="stat-label">On-Device Privacy</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Pro Overlays</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number text-accent">0</span>
+            <span class="stat-label">Hidden Trackers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="cta-section">
+      <div class="container cta-content">
+        <h2 class="cta-title">Upgrade Your Captures</h2>
+        <p class="cta-subtitle">Experience the ultimate geotagging camera. All features included natively.</p>
+        <div class="cta-buttons">
+          <a href="https://apps.apple.com/us/app/gpsstamp-camera/id6759523806" class="btn btn-large btn-primary hover-glow" target="_blank">Download on App Store</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <a href="#" class="logo footer-logo"><span class="logo-accent">GPS</span>Stamp Camera+</a>
+          <p class="footer-tagline">Advanced Geotagging for the Modern Explorer.<br><a href="mailto:gpsstampcameraplus@gmail.com" class="footer-email">gpsstampcameraplus@gmail.com</a></p>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h3>Product</h3>
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+          </div>
+          <div class="link-group">
+            <h3>Support</h3>
+            <a href="mailto:gpsstampcameraplus@gmail.com">Contact</a>
+            <a href="/privacy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 GPSStamp Camera+. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
